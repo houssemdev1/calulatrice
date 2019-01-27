@@ -1,0 +1,47 @@
+.btn1 {
+    font-size: 200%;
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    height: 70px;
+    width: 87px;
+    border: 2px solid greenyellow;
+    border-radius: 17px;
+}
+
+.call
+{
+    width:350px;
+    margin: auto;
+    border: 6px solid black;
+    background-color: rgb(31, 73, 87);
+}
+
+.btn2 {
+    font-size: 200%;
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    height: 70px;
+    width: 87px;
+    border: 2px solid greenyellow;
+    border-radius: 17px;
+}
+.input
+{
+    width: 100%;
+    padding: 30px 0px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 41px;
+    background-color: rgb(185, 223, 209);
+    color: black;
+    text-align: right;
+}
+.tt
+{
+    color: rgb(87, 66, 58);
+    text-shadow: 2px 2px 4px #000000;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<tr lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <h2 class="tt"><center>Mon Calculatrice</center></h2>
+    <div class="call">
+            <form name="calculatrice">
+    <table>
+            <input class="input" type="text" name="affichage" value="">
+        
+           
+       
+   <tr><input type="button" class="btn2" value ="1" onclick="Ajout('1')"></tr>
+   <tr><input type="button" class="btn2" value ="2" onclick="Ajout('2')"></tr>
+   <tr><input type="button" class="btn2" value ="3" onclick="Ajout('3')"></tr>
+   <tr> <input type="button" class="btn2" value ="+" onclick="Ajout('+')"></tr>
+   <br>
+   <tr><input type="button" class="btn2" value ="4" onclick="Ajout('4')"></tr>
+   <tr><input type="button" class="btn2" value ="5" onclick="Ajout('5')"></tr>
+   <tr><input type="button" class="btn2" value ="6" onclick="Ajout('6')"></tr>
+   <tr> <input type="button" class="btn2" value ="-" onclick="Ajout('-')"></tr>
+   <br>
+   <tr><input type="button" class="btn2" value ="7" onclick="Ajout('7')"></tr>
+        <tr><input type="button" class="btn2" value ="8" onclick="Ajout('8')"></tr>
+        <tr><input type="button" class="btn2" value ="9" onclick="Ajout('9')"></tr>
+        <tr><input type="button" class="btn2" value ="*" onclick="Ajout('*')"></tr>
+        <br>
+        <tr><input type="button" class="btn2" value ="0" onclick="Ajout('0')"></tr>
+        <tr><input type="button" class="btn2" value ="%" onclick="Ajout('%')"></tr>
+        <input type="button" class="btn2" value ="√" onclick="fctspecial('sqrt')">
+        <input type="button" class="btn2" value ="/" onclick="Ajout('/')">
+        <br>
+        <tr><input type="button" class="btn2" value ="CE" onclick="delt()"></tr>
+        
+       
+        <tr> <input type="button" class="btn2" value ="=" onclick="calculer('=')"></tr>
+        <tr> <input type="button" class="btn2" value ="log10" onclick="fctspecial('log10')"></tr>
+        <tr> <input type="button" class="btn2" value ="exp" onclick="fctspecial('exp')"></tr>
+    
+       
+</table>
+
+</div>
+
+</form>
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
